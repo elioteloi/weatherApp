@@ -1,0 +1,20 @@
+#div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(254, 243, 243);
+    padding: 15px;
+    border-radius: 13px;
+  }
+  
+  #div-temperature h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
