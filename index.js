@@ -13,7 +13,8 @@ const coordinates = [
 ];
 
 const div = document.getElementById("div");
-const buttonLeft = document.getElementById("buttonLeft");
+const buttonPrev = document.getElementById("buttonPrev");
+const buttonNext = document.getElementById("buttonNext");
 
 let index = 0;
 
@@ -47,7 +48,7 @@ function fetchData() {
     });
 }
 
-buttonLeft.addEventListener("click", () => {
+buttonPrev.addEventListener("click", () => {
   console.log("button right clicked");
   index--;
 
@@ -57,7 +58,7 @@ buttonLeft.addEventListener("click", () => {
   fetchData();
 });
 
-buttonRight.addEventListener("click", () => {
+buttonNext.addEventListener("click", () => {
   console.log("button right clicked");
   index++;
 
